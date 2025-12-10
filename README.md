@@ -1,33 +1,136 @@
-# Awesome Name [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/awesomelistsio/awesome)
+# Awesome PHP [![Awesome Lists](https://srv-cdn.himpfen.io/badges/awesome-lists/awesomelists-flat.svg)](https://github.com/awesomelistsio/awesome)
 
 [![Ko-Fi](https://srv-cdn.himpfen.io/badges/kofi/kofi-flat.svg)](https://ko-fi.com/awesomelists) &nbsp; [![PayPal](https://srv-cdn.himpfen.io/badges/paypal/paypal-flat.svg)](https://www.paypal.com/donate/?hosted_button_id=3LLKRXJU44EJJ) &nbsp; [![Stripe](https://srv-cdn.himpfen.io/badges/stripe/stripe-flat.svg)](https://tinyurl.com/e8ymxdw3) &nbsp; [![X](https://srv-cdn.himpfen.io/badges/twitter/twitter-flat.svg)](https://x.com/ListsAwesome) &nbsp; [![Facebook](https://srv-cdn.himpfen.io/badges/facebook-pages/facebook-pages-flat.svg)](https://www.facebook.com/awesomelists)
 
-> A curated list of resources for
+> A curated list of PHP frameworks, libraries, tools, CMS platforms, best practices, and learning resources — covering modern PHP development, APIs, security, performance, testing, and ecosystem tooling.
 
 ## Contents
 
-- [Section](#section)
-- [Another Section](#another-section)
+- [Official Resources](#official-resources)
+- [Frameworks](#frameworks)
+- [Microframeworks](#microframeworks)
+- [CMS & Platforms](#cms--platforms)
+- [Templating Engines](#templating-engines)
+- [HTTP, APIs & Middleware](#http-apis--middleware)
+- [Databases & ORMs](#databases--orms)
+- [Security](#security)
+- [Authentication & Authorization](#authentication--authorization)
+- [Queues & Event Systems](#queues--event-systems)
+- [Testing](#testing)
+- [Performance, Debugging & Profiling](#performance-debugging--profiling)
+- [Developer Tools](#developer-tools)
+- [Learning Resources](#learning-resources)
+- [Related Awesome Lists](#related-awesome-lists)
 
-## Section
+## Official Resources
 
-About this section. Optional. Keep this short and focus on the list.
+- [PHP.net](https://www.php.net/) – Official documentation.
+- [PHP RFCs](https://wiki.php.net/rfc) – Proposals for new features.
+- [Composer](https://getcomposer.org/) – Dependency manager.
+- [Packagist](https://packagist.org/) – PHP package repository.
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+## Frameworks
 
-## Another Section
+- [Laravel](https://laravel.com/) – Modern full-stack PHP framework.
+- [Symfony](https://symfony.com/) – Robust enterprise-grade framework.
+- [CodeIgniter](https://codeigniter.com/) – Lightweight MVC framework.
+- [Yii](https://www.yiiframework.com/) – High-performance component-based framework.
+- [CakePHP](https://cakephp.org/) – Convention over configuration.
 
-### Subsection
+## Microframeworks
 
-- [List item](http://example.com)
-- [List item](http://example.com)
+- [Slim](https://www.slimframework.com/) – Minimalistic API and microservice framework.
+- [Lumen](https://lumen.laravel.com/) – Laravel’s microframework variant.
+- [Silex (Archived)](https://silex.symfony.com/) – Symfony-based microframework.
+
+## CMS & Platforms
+
+- [WordPress](https://wordpress.org/) – The most popular CMS.
+- [Drupal](https://www.drupal.org/) – Enterprise CMS & framework.
+- [Joomla](https://www.joomla.org/) – Flexible CMS.
+- [Magento](https://github.com/magento/magento2) – E-commerce platform.
+- [Shopware](https://github.com/shopware/platform) – Modern open e-commerce platform.
+
+## Templating Engines
+
+- [Twig](https://twig.symfony.com/) – Fast, secure templating from Symfony.
+- [Blade](https://laravel.com/docs/blade) – Laravel’s templating engine.
+- [Plates](https://platesphp.com/) – Native PHP templating.
+
+## HTTP, APIs & Middleware
+
+- [Guzzle](https://github.com/guzzle/guzzle) – HTTP client for PHP.
+- [PSR-7 HTTP Message Interfaces](https://www.php-fig.org/psr/psr-7/) – Standardized request/response structures.
+- [PSR-15 Middleware](https://www.php-fig.org/psr/psr-15/) – HTTP middleware recommendation.
+- [FastRoute](https://github.com/nikic/FastRoute) – High-performance router.
+
+## Databases & ORMs
+
+- [Doctrine ORM](https://www.doctrine-project.org/) – Full-featured ORM.
+- [Eloquent](https://laravel.com/docs/eloquent) – Laravel’s active-record ORM.
+- [Cycle ORM](https://github.com/cycle/orm) – PHP data mapper ORM using PHP attributes.
+- [RedBeanPHP](https://github.com/gabordemooij/redbean) – Zero-config ORM.
+- [PDO](https://www.php.net/manual/en/book.pdo.php) – Standard DB interface.
+
+## Security
+
+- [phpseclib](https://github.com/phpseclib/phpseclib) – Cryptography library.
+- [Security Advisories Database](https://github.com/FriendsOfPHP/security-advisories) – Known vulnerable packages.
+- [password_hash](https://www.php.net/manual/en/function.password-hash.php) – Standard for secure password handling.
+
+## Authentication & Authorization
+
+- [Laravel Sanctum](https://laravel.com/docs/sanctum)
+- [Laravel Passport](https://laravel.com/docs/passport) – OAuth2 Server implementation.
+- [OAuth2 Server PHP](https://github.com/thephpleague/oauth2-server) – The League’s OAuth2 library.
+- [JWT Framework](https://github.com/web-token/jwt-framework) – Flexible JWT tools.
+
+## Queues & Event Systems
+
+- [Laravel Queue](https://laravel.com/docs/queues)
+- [Symfony Messenger](https://symfony.com/doc/current/messenger.html)
+- [php-amqplib](https://github.com/php-amqplib/php-amqplib) – AMQP (RabbitMQ) client.
+
+## Testing
+
+- [PHPUnit](https://phpunit.de/) – De facto unit testing framework.
+- [Pest](https://pestphp.com/) – Elegant testing library for PHP.
+- [Mockery](https://github.com/mockery/mockery) – Mocking framework.
+- [Codeception](https://codeception.com/) – BDD-style testing framework.
+
+## Performance, Debugging & Profiling
+
+- [Xdebug](https://xdebug.org/) – Debugging, stack traces, profiling.
+- [Blackfire](https://blackfire.io/) – Performance profiling.
+- [Opcache](https://www.php.net/manual/en/book.opcache.php) – Built-in PHP accelerator.
+- [phpbench](https://github.com/phpbench/phpbench) – Benchmarking framework.
+
+## Developer Tools
+
+- [PHPStan](https://phpstan.org/) – Static analysis.
+- [Psalm](https://psalm.dev/) – Static analysis tool developed by Vimeo.
+- [PHP CS Fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) – Coding standards enforcement.
+- [Rector](https://github.com/rectorphp/rector) – Automated refactoring.
+- [Phan](https://github.com/phan/phan) – Static analyzer for PHP.
+- [Deployer](https://deployer.org/) – PHP deployment tool.
+
+## Learning Resources
+
+- [PHP Manual](https://www.php.net/manual/en/)
+- [PHP: The Right Way](https://phptherightway.com/) – Best practices.
+- [Laracasts](https://laracasts.com/) – Laravel + PHP learning platform.
+- [SymfonyCasts](https://symfonycasts.com/) – Symfony tutorials.
+- [FreeCodeCamp PHP](https://www.freecodecamp.org/news/tag/php/)
+- [Awesome PHP Tutorials](https://www.php.net/manual/en/tutorial.php)
 
 ## Related Awesome Lists
 
-- [List item](http://example.com)
-- [List item](http://example.com)
-  
+- [Awesome Web Development](https://github.com/awesomelistsio/awesome-web-development)
+- [Awesome APIs](https://github.com/awesomelistsio/awesome-apis)
+- [Awesome Laravel](https://github.com/awesomelistsio/awesome-laravel)
+- [Awesome WordPress](https://github.com/awesomelistsio/awesome-wordpress)
+- [Awesome Backend Development](https://github.com/awesomelistsio/awesome-backend)
+
 ## Contribute
 
 Contributions are welcome!
